@@ -7,7 +7,7 @@
 
 Використовуй цей репозиторій організації GoIT як шаблон для створення
 репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+обери опцію `«Create a new repository»`, як показано на зображенні
 
 ![Creating repo from a template step 1](./assets/template-step-1.png)
 
