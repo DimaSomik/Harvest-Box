@@ -1,0 +1,368 @@
+body {
+	background-color: #ae1332;
+}
+
+.box {
+	width: 389px;
+	height: 465px;
+	border-radius: 20px;
+	background-color: #f8766b;
+	position: relative;
+}
+
+.strawberry {
+	background-color: #f8766b;
+}
+
+.banana {
+	background-color: #edd251;
+}
+
+.watermelon {
+	background-color: #9dc262;
+}
+
+.lime {
+	background-color: #bfd663;
+}
+
+.apple {
+	background-color: #e93f29;
+}
+
+.peach {
+	background-color: #db4f4b;
+}
+
+.plums {
+	background-color: #9b5366;
+}
+
+.orange {
+	background-color: #f47f4c;
+}
+
+.kiwi {
+	background-color: #98b37e;
+}
+
+h3 {
+	width: 163px;
+	height: 38px;
+	top: 64px;
+	left: 24px;
+	font-family: DM Sans;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: -0.04em;
+	text-align: left;
+	position: relative;
+	color: #ffffff;
+}
+
+.white_box {
+	display: flex;
+	/* width: 136px; */
+  width: 141px;
+	height: 48px;
+	top: 393px;
+	left: 24px;
+	gap: 10px;
+	border-radius: 200px;
+	position: absolute;
+	background-color: #ffffff;
+}
+
+.price {
+	margin: 12px 21px;
+	/* width: 94px; */
+	height: 24px;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.04em;
+	color: #ae1332;
+}
+
+.plant {
+	width: 40px;
+	height: 24px;
+	top: 109px;
+	left: 24px;
+	position: absolute;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 32px;
+	max-width: 1216px;
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
+.fruit {
+	position: absolute;
+	top: 137px;
+	left: 47px;
+	width: 295px;
+	height: 252px;
+}
+
+.list_fruits > li {
+	list-style-type: none;
+}
+
+.organic {
+	width: 624px;
+	gap: 14px;
+	color: #ffffff;
+	justify-content: center;
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 328px;
+	margin-right: 328px;
+	text-align: center;
+	margin-bottom: 44px;
+}
+
+.list_fruits {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 1215px;
+	gap: 24px;
+	margin: 0 auto;
+	padding: 0;
+	top: 156px;
+	left: 32px;
+}
+
+.fruits {
+	width: 1216px;
+	height: 1599px;
+	margin: auto;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fruit_btn {
+	width: 114px;
+	height: 114px;
+	border-radius: 100%;
+	background-color: #98b37e;
+	margin: 44px 551px 0 551px;
+	display: flex;
+	flex-direction: row;
+}
+
+.text_btn {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.04em;
+	text-align: center;
+	width: 57px;
+	height: 24px;
+	rotate: -14deg;
+	color: #ffffff;
+	top: 38px;
+	left: 18px;
+	position: relative;
+}
+
+.arrow-button-svg {
+	fill: #ffffff;
+	top: 61.08px;
+	left: 18px;
+	position: relative;
+	text-align: center;
+}
+
+/*mobile min-width 375px and max-width 767px*/
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	.list_fruits > li {
+		list-style-type: none;
+	}
+
+	.arrow-button-svg {
+		fill: #ffffff;
+		top: 40px;
+		left: 6.98px;
+		position: relative;
+		text-align: center;
+	}
+
+	.fruit_btn {
+		width: 80px;
+		height: 80px;
+		border-radius: 100%;
+		background-color: #98b37e;
+		margin: 44px 127px 0 128px;
+		gap: 4px;
+	}
+
+	.text_btn {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 18px;
+		letter-spacing: -0.04em;
+		text-align: center;
+		width: 44px;
+		height: 18px;
+		rotate: -14deg;
+		color: #ffffff;
+		top: 26px;
+		left: 7px;
+		position: relative;
+	}
+
+	.container {
+		margin: 0 auto;
+		padding: 0 20px;
+		width: 335px;
+		gap: 0;
+	}
+
+	.list_fruits {
+		display: flex;
+		max-width: 335px;
+		left: 20px;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.plums,
+	.orange,
+	.kiwi {
+		display: none;
+	}
+
+	.organic {
+		display: flex;
+		max-width: 335px;
+		margin: 0;
+		text-align: center;
+		left: 20px;
+		align-items: center;
+		margin-top: 80px;
+		margin-bottom: 44px;
+	}
+
+	.box {
+		max-width: 335px;
+	}
+
+	.fruit {
+		left: 20px;
+		top: 122px;
+	}
+
+	h2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+	.list_fruits {
+		list-style-type: none;
+	}
+
+	.arrow-button-svg {
+		fill: #ffffff;
+		top: 61.08px;
+		left: 18px;
+		position: relative;
+		text-align: center;
+	}
+
+	.fruit_btn {
+		width: 114px;
+		height: 114px;
+		border-radius: 100%;
+		background-color: #98b37e;
+		margin: 44px 327px 0 327px;
+		gap: 4px;
+	}
+
+	 .container {
+		flex-direction: column;
+		margin: 0 auto;
+		display: flex;
+		max-width: 768px;
+		padding: 0 32px;
+	}
+
+	.kiwi {
+		display: none;
+	}
+
+	.organic {
+		display: flex;
+		max-width: 624px;
+		text-align: center;
+		margin: 0 72px;
+		align-items: center;
+		gap: 14px;
+		margin-bottom: 44px;
+	}
+
+	.list_fruits {
+		display: flex;
+		max-width: 768px;
+		left: 32px;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-top: 0;
+		
+	}
+
+	.box {
+		width: 344px;
+	}
+
+	.fruit {
+		left: 25px;
+		top: 137px;
+		margin: auto;
+	}
+
+	.fruits {
+		max-width: 768px;
+	}
+
+	.text_btn {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.04em;
+		text-align: center;
+		width: 57px;
+		height: 24px;
+		rotate: -14deg;
+		color: #ffffff;
+		top: 38px;
+		left: 18px;
+		position: relative;
+	}
+}

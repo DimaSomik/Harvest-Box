@@ -1,0 +1,223 @@
+<!--Your Order Pop up-->
+<div class="modal-window" id="modal-window-id">
+    <!--Your Order and Button-->
+    <div class="modal-top-div">
+    <p class="modal-paragraph">
+        Your Order
+    </p>
+
+    <button class="modal-close-button" id="modal-close-button-id">
+        <svg width="24" height="24" class="modal-close-button-svg">
+            <use href="./images/icons.svg#icon-x"></use>
+        </svg>
+    </button>
+    </div>
+
+
+<!--Form-->
+<form>
+    <!--Cards-->
+    <div class="modal-cards-div">
+        <!--First card-->
+        <div class="modal-card">
+         <label for="strawberry-checkbox" class="modal-card-label">
+            <div class="modal-card-inner-div">
+            <p class="modal-card-basket-paragraph">
+                Strawberry Basket
+            </p>
+
+            <p class="plant-paragraph">
+                Plant
+            </p>
+            </div>
+
+            <img 
+            srcset="./images/strawberry-basket.png 1x, ./images/strawberry-basket@2x.png 2x"
+            src="./images/strawberry-basket.png" 
+            alt="Basket of strawberries" 
+            class="strawberry-image"
+            width="88"
+            height="95">
+            
+            <input type="checkbox" name="cards-checkboxes" id="strawberry-checkbox" value="true" class="card-checkbox visually-hidden">
+            <label for="strawberry-checkbox" class="important-label">
+            <span class="modal-checkbox-span">
+                <svg width="6" height="6" class="modal-checkbox-span-svg">
+                    <use href="./images/icons.svg#icon-pick"></use>
+                </svg>
+            </span>
+            </label>
+         </label>
+        </div>
+
+        <!--Second card-->
+        <div class="modal-card">
+         <label for="apple-checkbox" class="modal-card-label">
+            <div class="modal-card-inner-div">
+            <p class="modal-card-basket-paragraph">
+                Apple Basket
+            </p>
+
+            <p class="plant-paragraph">
+                Plant
+            </p>
+            </div>
+
+            <img 
+            srcset="./images/apple-basket.png 1x, ./images/apple-basket@2x.png 2x"
+            src="./images/apple-basket.png" 
+            alt="Basket of apples" 
+            class="apple-image"
+            width="106"
+            height="95">
+
+            <input type="checkbox" name="cards-checkboxes" id="apple-checkbox" value="true" class="card-checkbox visually-hidden">
+            <label for="apple-checkbox" class="important-label">
+                <span class="modal-checkbox-span">
+                    <svg width="6" height="6" class="modal-checkbox-span-svg">
+                        <use href="./images/icons.svg#icon-pick"></use>
+                    </svg>
+                </span>
+            </label>
+         </label>
+        </div>
+
+        <!--Third card-->
+        <div class="modal-card">
+         <label for="fruits-checkbox" class="modal-card-label">
+            <div class="modal-card-inner-div">
+            <p class="modal-card-basket-paragraph">
+                Fruits Basket
+            </p>
+
+            <p class="plant-paragraph">
+                Plant
+            </p>
+            </div>
+
+            <img
+            srcset="./images/fruits-basket.png 1x, ./images/fruits-basket.png 2x" 
+            src="./images/fruits-basket.png" 
+            alt="Basket of different fruits" 
+            class="fruits-image"
+            width="107"
+            height="95">
+
+            <input type="checkbox" name="cards-checkboxes" id="fruits-checkbox" value="true" class="card-checkbox visually-hidden">
+            <label for="fruits-checkbox" class="important-label">
+                <span class="modal-checkbox-span">
+                    <svg width="6" height="6" class="modal-checkbox-span-svg">
+                        <use href="./images/icons.svg#icon-pick"></use>
+                    </svg>
+                </span>
+            </label>
+         </label>
+        </div>
+    </div>
+
+    <div class="modal-inputs-container">
+    <!--Name Input-->
+    <div class="modal-input-div">
+        <input type="text" 
+                name="input-name" 
+                id="input-name" 
+                class="modal-input" 
+                placeholder="Enter full name..." 
+                pattern="[A-Za-z]{1,32}">
+    </div>
+
+    <!--Email Input-->
+    <div class="modal-input-div">
+        <input type="text" 
+                name="input-email" 
+                id="input-email" 
+                class="modal-input" 
+                placeholder="Enter email..."
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+    </div>
+
+    <!--Card Input-->
+    <div class="modal-input-div">
+        <input type="text" 
+                name="input-card" 
+                id="input-card" 
+                class="modal-input" 
+                placeholder="Enter card.."
+                pattern="\d{16,16}">
+    </div>
+
+    <!--TextArea-->
+    <div class="modal-textarea-div">
+        <textarea name="modal-textarea" id="modal-textarea" placeholder="Enter comments..." class="modal-textarea"></textarea>
+    </div>
+
+    <!--Submit Button-->
+    <button type="button" class="modal-sumbit-button" id="modal-submit-button-id">
+        Submit
+    </button>
+    </div>
+</form>
+
+</div>
+
+<!--Thank You Pop up-->
+<div class="modal-thank-you-window  modal-closed" id="thank-you-window-id">
+    <!--Close Button-->
+    <button class="thank-you-close-button" id="thank-you-close-button-id">
+        <svg width="24" height="24" class="thank-you-close-button-svg">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+
+    <!--Raspberry image-->
+    <img 
+    srcset="./images/raspberry.png 1x, ./images/raspberry@2x.png 2x"
+    src="./images/raspberry.png" 
+    alt="Raspberries" 
+    class="raspberries-img"
+    width="207"
+    height="176">
+
+    <!--Paragraph-->
+    <div class="thank-you-paragraph-div">
+        <p class="thank-you-first-paragraph">
+            Thank You
+        </p>
+
+        <p class="thank-you-second-paragraph">
+            Thank you for your order! Our team is preparing your box with fresh, 
+            delicious fruits and vegetables, and we'll deliver it straight to your doorstep. 
+            We appreciate your business and look forward to providing you with the best possible experience!
+        </p>
+    </div>
+
+</div>
+
+<!--Script for Buttons-->
+<script>
+
+    //Script for "Your Order" Window
+    const CLOSED_CLASS = "modal-closed";
+
+    const modal_div = document.querySelector("#modal-window-id"); 
+
+    const closeButton = document.querySelector("#modal-close-button-id");
+    closeButton.addEventListener("click", () => {
+    modal_div.classList.add(CLOSED_CLASS);
+    });
+
+    const submitButton = document.querySelector("#modal-submit-button-id")
+    submitButton.addEventListener("click", () => {
+    modal_div.classList.add(CLOSED_CLASS);
+    ThankYou_modal_div.classList.remove(CLOSED_CLASS);
+    });
+
+    //Script for "Thank You" Window
+    const ThankYou_modal_div = document.querySelector("#thank-you-window-id"); 
+
+    const ThankYou_closeButton = document.querySelector("#thank-you-close-button-id");
+    ThankYou_closeButton.addEventListener("click", () => {
+    ThankYou_modal_div.classList.add(CLOSED_CLASS);
+    });
+
+</script>

@@ -1,0 +1,574 @@
+/* Other */
+.visually-hidden {
+    opacity: 0; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 1px;
+    z-index: 2;
+}
+
+.modal-closed {
+    display: none;
+}
+
+/* Your Order Window */
+.modal-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 335px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 88px 20px 5px 20px;
+    margin: 0;
+    z-index: 5;
+}
+
+.modal-top-div {
+    display: flex;
+    gap: 108px;
+}
+
+.modal-paragraph {  
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    top: 20px;
+    left: 20px;
+    min-width: 163px;
+    min-height: 28px;
+    resize: both;
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    color: #AE1332;
+    background-color: #FFFFFF; 
+}
+
+.modal-close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF; 
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.modal-cards-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.modal-card {
+    position: relative;
+    display: flex;
+    max-width: 295px;
+    width: 100%;
+    height: 119px;
+    border-radius: 20px;
+    background-color: #F8766B;
+}
+
+.modal-card:nth-child(2) {
+    background-color: #EDD251;
+}
+
+.modal-card:nth-child(3) {
+    background-color: #9DC262;
+}
+
+.modal-card-basket-paragraph {
+    display: block;
+    position: absolute;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+    top: 20px;
+    left: 20px;
+}
+
+.plant-paragraph {
+    position: absolute;
+    font-family: "DM Sans";
+    max-width: 32px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    top: 46px;
+    left: 20px;
+    color: #FFFFFF;
+}
+
+.strawberry-image {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    top: 16px;
+    left: 175px;   
+}
+
+.apple-image {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    top: 16px;
+    left: 157px;   
+}
+
+.fruits-image {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    top: 16px;
+    left: 156px;   
+}
+
+.modal-card-label {
+    width: 295px;
+    height: 119px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+ 
+.modal-checkbox-span {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    top: 14px;
+    left: 265px;
+    border: 1.5px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
+}
+
+.card-checkbox:checked + .important-label .modal-checkbox-span {
+    fill: #FFFFFF;
+}
+
+.modal-input-div {
+    margin-bottom: 14px;
+}
+
+.modal-input {
+    width: 100%;
+    height: 46px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    background-color: transparent;
+    padding-left: 20px;
+    outline: transparent;
+    position: relative;
+}
+
+.modal-input:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.modal-textarea {
+    width: 100%;
+    height: 132px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    margin-bottom: 20px;
+    padding-top: 14px;
+}
+
+
+.modal-sumbit-button {
+    display: block;
+    min-width: 92px;
+    height: 39px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    border-radius: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: rgba(157, 193, 98, 1);
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Thank You Window */
+.modal-thank-you-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 335px;
+    min-height: 426px;
+    background-color: rgba(224, 63, 94, 1);
+    border-radius: 20px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
+    z-index: 5;
+}
+
+.thank-you-close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; 
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.raspberries-img {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 64px;
+    margin: 0;
+    padding: 10px;
+}
+
+.thank-you-paragraph-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    top: 236px;
+    left: 20px;
+    right: 20px;
+}
+
+.thank-you-first-paragraph {
+    width: 146px;
+    height: 28px;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    align-self: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.thank-you-second-paragraph {
+    width: 295px;
+    height: 108px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+/* Tablet */
+@media (768px <= width < 1280px) {
+    .modal-window {
+        min-width: 704px;
+        padding: 90px 20px 20px 20px;
+        background-image: image-set(url(../images/woman-bananas.png) 1x,
+                                    url(../images/woman-bananas@2x.png) 2x);     
+        background-repeat: no-repeat;
+        background-position-x: 408px;
+        background-position-y: 378px;
+    }
+
+    .modal-top-div {
+        margin-bottom: 35px;
+    }
+
+    .modal-close-button-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .modal-checkbox-span {
+        width: 20px;
+        height: 20px;
+        left: 166px;
+    }
+
+    .modal-checkbox-span-svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .modal-paragraph {
+        top: 40px;
+        left: 40px;
+        font-size: 40px;
+        line-height: 44px;
+        min-width: 232px;
+        min-height: 44px;
+    }
+
+    .modal-cards-div {
+        flex-direction: row;
+    }
+
+    .modal-card {
+        flex-direction: column;
+        max-width: 200px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .modal-card-basket-paragraph {
+        top: 40px;
+        left: 20px;
+    }
+
+    .plant-paragraph {
+        top: 66px;
+        left: 20px;
+    }
+
+    .strawberry-image {
+        top: 88px;
+        left: 34px;
+        width: 133px;
+        height: 148px;
+    }
+
+    .apple-image {
+        width: 172px;
+        height: 148px;
+        top: 88px;
+        left: 14px;
+    }
+
+    .fruits-image {
+        width: 172px;
+        height: 148px;
+        top: 88px;
+        left: 20px;
+    }
+
+    .modal-inputs-container {
+        width: 360px;
+        height: 399px;
+        margin-left: 20px;
+    }
+
+    .modal-sumbit-button {
+        min-width: 114px;
+        height: 48px;
+    }
+
+    .modal-thank-you-window {
+        min-width: 600px;
+        min-height: 545px;
+    }
+
+    .raspberries-img {
+        width: 278px;
+        height: 239px;
+        top: 68px;
+        left: 161px;
+    }
+
+    .thank-you-paragraph-div {
+        top: 335px;
+    }
+
+    .thank-you-first-paragraph {
+        width: 209px;
+        height: 44px;
+        text-align: center;
+    }
+    
+    .thank-you-second-paragraph {
+        width: 391px;
+        height: 72px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+    .modal-window {
+        min-width: 891px;
+        padding: 90px 20px 20px 20px;
+        background-image: image-set(url(../images/woman-bananas.png) 1x,
+                                    url(../images/woman-bananas@2x.png) 2x);     
+        background-repeat: no-repeat;
+        background-position-x: 420px;
+        background-position-y: 435px;
+    }
+
+    .modal-top-div {
+        margin-bottom: 35px;
+    }
+
+    .modal-close-button-svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .modal-checkbox-span {
+        width: 20px;
+        height: 20px;
+        left: 223px;
+    }
+
+    .modal-checkbox-span-svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .modal-paragraph {
+        top: 40px;
+        left: 30px;
+        font-size: 40px;
+        line-height: 44px;
+        min-width: 232px;
+        min-height: 44px;
+    }
+
+    .modal-cards-div {
+        flex-direction: row;
+        gap: 20px
+    }
+
+    .modal-card {
+        flex-direction: column;
+        max-width: 257px;
+        width: 100%;
+        height: 308px;
+    }
+
+    .modal-card-basket-paragraph {
+        top: 40px;
+        left: 20px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .plant-paragraph {
+        top: 76px;
+        left: 20px;
+        font-weight: 400;
+    }
+
+    .strawberry-image {
+        width: 173px;
+        height: 196px;
+        top: 98px;
+        left: 42px;
+    }
+
+    .apple-image {
+        width: 229px;
+        height: 196px;
+        top: 98px;
+        left: 14px;
+    }
+
+    .fruits-image {
+        width: 229px;
+        height: 196px;
+        top: 98px;
+        left: 14px;
+    }
+
+    .modal-inputs-container {
+        width: 360px;
+        height: 399px;
+        margin-left: 20px;
+    }
+
+    .modal-sumbit-button {
+        min-width: 114px;
+        height: 48px;
+    }
+
+    .modal-thank-you-window {
+        min-width: 600px;
+        min-height: 545px;
+    }
+
+    .raspberries-img {
+        width: 278px;
+        height: 239px;
+        top: 68px;
+        left: 161px;
+    }
+
+    .thank-you-paragraph-div {
+        top: 335px;
+    }
+
+    .thank-you-first-paragraph {
+        width: 209px;
+        height: 44px;
+        text-align: center;
+    }
+    
+    .thank-you-second-paragraph {
+        width: 391px;
+        height: 72px;
+    }
+}

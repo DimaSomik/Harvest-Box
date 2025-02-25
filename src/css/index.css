@@ -1,0 +1,54 @@
+@import url('../css/contacts.css');
+@import url('../css/footer.css');
+@import url('../css/fruits.css');
+@import url('../css/header.css');
+@import url('../css/hero.css');
+@import url('../css/howitworks.css');
+@import url('../css/modal.css');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --red: #ae1332;
+  --green1: #a4cb66;
+  --green2: #9dc262;
+  --yellow: #f5ce13;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
