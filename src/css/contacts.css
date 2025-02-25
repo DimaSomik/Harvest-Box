@@ -1,4 +1,4 @@
-.contacts .container {
+.contacts .contactsContainer {
   margin: auto;
   width: 375px;
   background-color: var(--red);
@@ -50,10 +50,10 @@
   .contacts .melon-image-mobile {
     display: none;
   }
-  .contacts .container {
+  .contacts .contactsContainer {
     width: 768px;
   }
-  .contacts .container {
+  .contacts .contactsContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,7 +154,7 @@
 }
 
 @media (min-width: 1280px) {
-  .contacts .container {
+  .contacts .contactsContainer {
     width: 1280px;
   }
   .contacts-heading {

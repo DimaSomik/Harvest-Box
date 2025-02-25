@@ -1,7 +1,17 @@
 .container {
   display: flex;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: 20px;
+  /* margin-left: 50px; */
   gap: 155px;
+
+}
+
+.header-first-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* Mobile */
@@ -29,6 +39,7 @@
 }
 
 .logo-text {
+  display: inline-block;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -52,6 +63,8 @@
 
   .nav {
     display: flex;
+    width: 95vw;
+    justify-content: space-between;
   }
 
   .nav-list {

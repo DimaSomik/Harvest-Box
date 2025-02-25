@@ -450,17 +450,18 @@
 @media (min-width: 1280px) {
     .modal-window {
         min-width: 891px;
+        max-height: 90vh;
         padding: 90px 20px 20px 20px;
         background-image: image-set(url(../images/woman-bananas.png) 1x,
                                     url(../images/woman-bananas@2x.png) 2x);     
         background-repeat: no-repeat;
         background-position-x: 420px;
-        background-position-y: 435px;
+        background-position-y: 255px;
     }
 
-    .modal-top-div {
+    /* .modal-top-div {
         margin-bottom: 35px;
-    }
+    } */
 
     .modal-close-button-svg {
         width: 30px;
@@ -489,14 +490,15 @@
 
     .modal-cards-div {
         flex-direction: row;
-        gap: 20px
+        gap: 20px;
+        margin-bottom: 10px;
     }
 
     .modal-card {
         flex-direction: column;
         max-width: 257px;
-        width: 100%;
-        height: 308px;
+        width: 50%;
+        height: 208px;
     }
 
     .modal-card-basket-paragraph {
@@ -514,30 +516,38 @@
     }
 
     .strawberry-image {
-        width: 173px;
-        height: 196px;
+        width: 103px;
+        height: 96px;
         top: 98px;
-        left: 42px;
+        left: 132px;
     }
 
     .apple-image {
-        width: 229px;
-        height: 196px;
+        width: 129px;
+        height: 96px;
         top: 98px;
-        left: 14px;
+        left: 104px;
     }
 
     .fruits-image {
-        width: 229px;
-        height: 196px;
+        width: 129px;
+        height: 96px;
         top: 98px;
-        left: 14px;
+        left: 124px;
     }
 
     .modal-inputs-container {
-        width: 360px;
-        height: 399px;
+        width: 250px;
+        height: 339px;
         margin-left: 20px;
+    }
+    
+    .modal-input {
+        height: 30px;
+    }
+
+    .modal-textarea {
+        height: 100px;
     }
 
     .modal-sumbit-button {

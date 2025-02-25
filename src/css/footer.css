@@ -1,4 +1,11 @@
-/* Mobile */
+.footer-main-container {
+    width: 100vw;
+    padding: 10px;
+    border-top: solid 2px black;
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+}
 
 .logo   {
     position: relative;
@@ -36,7 +43,8 @@
     word-wrap: break-word;}
 
 .footer {
-    background-color: #FFFFFF;
+    /* border-top: solid 1px black ; */
+    background-color: white;
     align-items: center;}
 
 .footer-menu    {
@@ -74,7 +82,7 @@
 
 /* Tablet */
 
-@media screen and (min-width: 768px;)   {
+@media screen and (min-width: 768px)   {
   
 .footer-media   {
 margin-top: 118px;
@@ -88,10 +96,11 @@ Gap:44px;
 
 /* Destop */
 
-@media screen and (min-width: 1280px;)  {
+@media screen and (min-width: 1280px)  {
     
 .footer-container   {
-     display: flex
-    }
+     display: flex;
+     margin-top: 200px;
+    };
 
 }

@@ -4,7 +4,7 @@
 
 @media (min-width: 1280px) {
 
-    .container {
+    .heroContainer {
         width: 1280px;
         margin: 0 auto;
         padding: 0 32px 0 32px;
@@ -41,7 +41,7 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
 
-    .container {
+    .heroContainer {
         width: 768px;
         margin: 0 auto;
         padding: 0 32px 0 32px;
@@ -79,7 +79,7 @@
 
 @media (max-width: 767px) {
 
-    .container {
+    .heroContainer {
         width: 375px;
         margin: 0 auto;
         padding: 0 32px 0 32px;
@@ -125,7 +125,7 @@
 
 @media (max-width: 767px) {
 
-    .hero .container {
+    .hero .heroContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -378,7 +378,7 @@
 @media (min-width: 768px) and (max-width: 1279px) {
 
 
-    .hero .container {
+    .hero .heroContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -618,7 +618,7 @@
 
 @media (min-width: 1280px) {
 
-    .hero .container {
+    .hero .heroContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
